@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "peacock-fan",
+	"version": "${version}",
+	"name": "Peacock Fan",
+	"description": "공작 깃털 부채를 추가합니다. 아래를 보고 우클릭하면 높이 도약하고, 정면을 보고 우클릭하면 앞의 몹과 아이템을 밀어냅니다. 부채를 소지하면 낙하 데미지를 받지 않습니다.",
+	"authors": [
+		"Idilot"
+	],
+	"license": "MIT",
+	"icon": "assets/peacock-fan/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.example.peacockfan.PeacockFan"
+		],
+		"client": [
+			"com.example.peacockfan.PeacockFanClient"
+		]
+	},
+	"mixins": [
+		"peacock-fan.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

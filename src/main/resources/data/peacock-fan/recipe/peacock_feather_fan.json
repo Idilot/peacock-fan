@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "FF ",
+    "GEF",
+    "SGF"
+  ],
+  "key": {
+    "F": "minecraft:feather",
+    "G": "minecraft:gold_ingot",
+    "E": "minecraft:ender_pearl",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "peacock-fan:peacock_feather_fan",
+    "count": 1
+  }
+}

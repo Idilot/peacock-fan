@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "peacock-fan:item/peacock_feather_fan"
+  }
+}
