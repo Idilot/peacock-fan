@@ -1,3 +1,10 @@
+// Based on PeacockFanItem from Twilight Forest (twilightforest/item/)
+// Original: ©2012-2017 Ben Mazur / Benimatic
+// Licensed under LGPL-2.1-or-later
+//
+// Modified 2026 by ldilot:
+// - Ported from Forge (1.21.x) to Fabric (26.2)
+// - Renamed class and adjusted registration
 package com.example.peacockfan.item;
 
 import net.minecraft.sounds.SoundEvents;
